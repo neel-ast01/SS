@@ -185,7 +185,32 @@ a {
 }
 
 
+.accordion-button {
+  background-color: #000000;
+  color: white;
+}
 
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #ffffff;
+}
+
+
+.accordion-button:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+.accordion-button:hover::after {
+  color: black;
+  background-color: #ffffff;
+}
+
+.accordion-body {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+}
 
 
 
